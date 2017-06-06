@@ -48,7 +48,7 @@ Base
 -----------------
 
 The base acts as an IR light box.
-The idea is to reflect IR light upward so it can go through the arena. We will be using the Rpi pins 4 (5v) and 6 (GND) to supply power to the IR lED strip. 
+The idea is to reflect IR light upward so it can go through the arena. We will be using the Rpi pins 4 (5v) and 6 (GND) to supply power to the IR LED strip. 
 
 
 In order to put the light together, a little bit of basic soldering is required:
@@ -86,10 +86,14 @@ The steps to build the head are the following:
 
 Last bits:
 Before you can start working, you will have to **change the focus of the camera**.
-I am afraid this has to be done manually. A very good explanation is available here(TODO).
+I am afraid this has to be done manually. 
+
+For old camera versions (1.3) you can find a video explanation here, be careful since the lense is glued by three drops: https://www.youtube.com/watch?v=u6VhRVH3Z6Y 
+
+If you are using the second version of the camera (2.1) it is easier since the lenses are not glued. So simple by rotating the lense you will be able to refocus it. 
 
 The wireless dongle blinks with blue light to indicate that it transmits data. 
-According to your expoerimental setup, you may want to blind the LED (e.g. with black tape) in order to prevent interference with the behaviour of your experimental animals.
+According to your experimental setup, you may want to blind the LED (e.g. with black tape) in order to prevent interference with the behaviour of your experimental animals.
 
 
 
