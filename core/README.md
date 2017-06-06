@@ -48,14 +48,14 @@ Base
 -----------------
 
 The base acts as an IR light box.
-The idea is to reflect IR light upward so it can go through the arena.
+The idea is to reflect IR light upward so it can go through the arena. We will be using the Rpi pins 4 (5v) and 6 (GND) to supply power to the IR lED strip. 
 
 
 In order to put the light together, a little bit of basic soldering is required:
 
 ![IR light soldering](./img/ir_light_soldering.png)
 
-In the figure above, the yellow dashed lined indicate where we need to solder.
+In the figure above, the yellow dashed lined indicate where we need to solder. (Pins 4 and 6 of the 2x3 connector)
 
 You can also notice that **heat shrink** have been put around the wires so that we ensure proper insulation.
 
