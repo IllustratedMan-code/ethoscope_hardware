@@ -1,22 +1,21 @@
-Piece,Part,Quantity,Supplier,Reference, Price
-Lower Pi case,Head,1,Polygonal Tree/Custom made,https://github.com/gilestrolab/ethoscope_hardware/tree/master/core/upper_pi_case, £1
-Upper Pi case,Head,1,Polygonal Tree/Custom made,https://github.com/gilestrolab/ethoscope_hardware/tree/master/core/lower_pi_case, £1
-Raspberry Pi v2,Head,1,CPC,,£20
-PiNoir camera,Head,1,RS,RS 790-2811, £12
-32Gb SD card,Head,1,amazon,32G Samsung EVO SD card, £8
-M3 12mm bolt,Head,6,RS,RS 232-8372,
-M3 nuts,Head,4,RS,RS 560-293,
-M2 nuts (nylon),Head,2,RS,RS 528-126,
-M2 6mm bolts,Head,2,RS,RS 482-7685,
-Wifi dongle,Head,1,Edimax,Edimax EW-7811UN, £8
-Light box,Base,1,Polygonal Tree/Custom made,https://github.com/gilestrolab/ethoscope_hardware/tree/master/core/light_box,£1
-Light support,Base,1,Polygonal Tree/Custom made,https://github.com/gilestrolab/ethoscope_hardware/tree/master/core/side_wall,£1
-Male 2x6 IDC socket ,Base,1,RS,RS 832-3496,
-12V IR LED strip,Base,3LED,Lightworld,http://www.ledlightsworld.com/infrared-led-strips-c-1_79.html,£1
-5cm cable,Base,2,RS,,
-Side wall,Side Wall,2,Polygonal Tree/Custom made,https://github.com/gilestrolab/ethoscope_hardware/tree/master/core/side_wall,£2
-Ribbon cable (6 way; 21cm),GPIO connector,1,RS,RS 693-7699,
-Female 2x6 IDC socket ,GPIO connector,1,RS,RS 832-3648,
-Female 2x40 IDC socket,GPIO connector,1,RS,RS 625-7303,
-USB A to micro cable,Power supply,1,RS,RS 888-8811,
-Anker 40w PSU,Power supply,1,Amazon,,£12
+Piece,Part,Quantity,Supplier,Reference, Price (GBP)
+Lower Pi case,Head,1,3d printed,https://cad.onshape.com/documents/56ac957ce4b06a92e0ed7352/w/0af5bcd5aa6f698123921d81/e/c8f22007242a38f132db21df,1
+Upper Pi case,Head,1,3d printed,https://cad.onshape.com/documents/56ac957ce4b06a92e0ed7352/w/0af5bcd5aa6f698123921d81/e/9491b49b9158a49e2b29f937,1
+Raspberry Pi v3,Head,1,CPC,http://cpc.farnell.com/raspberry-pi/raspberrypi3-modb-1gb/sbc-raspberry-pi-3-model-b-1gb/dp/SC14012,20
+PiNoir camera V2,Head,1,RS,RS 790-2811,15
+32Gb SD card,Head,1,amazon,32G Samsung EVO SD card,8
+M3 12mm bolt,Head,6,RS,RS 232-8372,0
+M3 nuts,Head,4,RS,RS 560-293,0
+M2 nuts (nylon),Head,2,RS,RS 528-126,0
+M2 6mm bolts,Head,2,RS,RS 482-7685,0
+Light box,Base,1,3d printed,https://cad.onshape.com/documents/56ac957ce4b06a92e0ed7352/w/0af5bcd5aa6f698123921d81/e/9b1d032d86c6675e3a08eedc,0
+Light support,Base,1,3d printed,https://cad.onshape.com/documents/56ac957ce4b06a92e0ed7352/w/0af5bcd5aa6f698123921d81/e/01c57a33f42b8e5a28742013,0
+Male 2x6 IDC socket ,Base,1,RS,RS 832-3496,1
+12V IR(850nm) LED strip,Base,3LED,Lightworld,http://www.ledlightsworld.com/infrared-led-strips-c-1_79.html,1
+5cm cable (2 wires),Base,2,RS,,0
+Side wall V>=9,Side Wall,2,Laser cut,https://cad.onshape.com/documents/56ac957ce4b06a92e0ed7352/w/0af5bcd5aa6f698123921d81/e/a07ac109a63612e058ffcb9b,0
+Ribbon cable (6 way  18cm),GPIO connector,1,1,RS,1
+Female 2x6 IDC socket ,GPIO connector,1,RS,RS 832-3648,1
+Female 2x40 IDC socket,GPIO connector,1,RS,RS 625-7303,1
+USB A to micro cable,Power supply,1,RS,RS 888-8811,3
+Anker 40w PSU,Power supply,1,Amazon,,12
