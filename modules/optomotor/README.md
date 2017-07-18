@@ -243,8 +243,8 @@ MOTOR 03 -> PIN 04  |  PIN 19 <- LED   08
 LED   03 -> PIN 05  |  PIN 18 <- MOTOR 08
 MOTOR 04 -> PIN 06  |  PIN 17 <- LED   09
 LED   04 -> PIN 07  |  PIN 16 <- MOTOR 09
-MOTOR 05 -> PIN 08  |  PIN 17 <- LED   10
-LED   05 -> PIN 09  |  PIN 16 <- MOTOR 10
+MOTOR 05 -> PIN 08  |  PIN 15 <- LED   10
+LED   05 -> PIN 09  |  PIN 14 <- MOTOR 10
 ```
 
 ## Finishing touches
