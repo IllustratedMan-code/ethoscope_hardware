@@ -1,1 +1,1 @@
-The documentation for the optomotor now lives on [our gitboook](https://qgeissmann.gitbooks.io/ethoscope-manual/content/building-and-installation/optomotor.html).
+The documentation for the optomotor now lives on [our gitboook](https://qgeissmann.gitbooks.io/ethoscope-manual/content/building-and-installation/optomotor.html). The BOM is an included md file at `/assets/optomotor_bom.md`. Please edit these instead of working on this readme.
