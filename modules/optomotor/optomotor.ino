@@ -52,7 +52,7 @@ Adafruit_TLC5947 tlc = Adafruit_TLC5947(NUM_TLC5974,
 
 #define PUSH_BUTTON_PIN 12
 // how long (in ms) the push buton should be hold for before demo is run
-#define PUSH_BUTTON_THR 2000
+#define PUSH_BUTTON_THR 5000
 // a timer that records how long push button is pressed for
 int push_button_timer = 0; 
 
@@ -71,7 +71,7 @@ void setup() {
   for (unsigned int i = 0; i != N_OUTPUTS; ++i){
     pwms[i] = 0;
     timers[i] = 0;
-    tlc.setPWM(i,0);
+    tlc.setPWM(i, pwms[i]);
   }
   tlc.write();
 
@@ -81,6 +81,7 @@ void setup() {
 void help(){
   Serial.println("P CHANNEL DURATION(ms) [INTENSITY](0-1000)");
   }
+  
 void loop() { 
   SCmd.readSerial(); 
   delay(50);
@@ -96,11 +97,13 @@ void loop() {
        timers[i] -= tick;
        if(timers[i] <0){
         timers[i] = 0;
-        tlc.setPWM(i,MIN_PWM);
-        tlc.write();
+        pwms[i] = 0;
       }
     }
   }
+  //push_button_timer = 0;
+  //Serial.println(digitalRead(PUSH_BUTTON_PIN) == LOW);
+  //Serial.println(tick);
   if(digitalRead(PUSH_BUTTON_PIN) == LOW){
     if(push_button_timer > PUSH_BUTTON_THR)
         demo();
@@ -109,15 +112,23 @@ void loop() {
     
   else{
     push_button_timer += tick;
-      
   }
+
+  for (unsigned int i = 0; i != N_OUTPUTS; ++i){
+    tlc.setPWM(i, pwms[i]);
+  }
+  /*
+  Serial.print(timers[1]);
+  Serial.print(", ");
+  Serial.println(pwms[1]);
+  */
+  tlc.write();
 }
 
 
 void sendPWM(unsigned int idx, unsigned int duration, unsigned int duty_cycle = MAX_PWM){
   timers[idx] = duration; // in ms
-  tlc.setPWM(idx,duty_cycle);
-  tlc.write();
+  pwms[idx] = duty_cycle; // in ms
 }
 
 void demo(){
@@ -157,4 +168,3 @@ void sendPWMSerial(){
   }
   sendPWM(motor_id, duration, duty_cycle);
   }
-
