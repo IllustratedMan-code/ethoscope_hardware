@@ -12,9 +12,13 @@
  * P 0 1000 500
 */
 
+// https://github.com/PaulStoffregen/SoftwareSerial - also available in the arduino libraries repo
+#include <SoftwareSerial.h>
 
-#include <SoftwareSerial.h> 
+// https://github.com/kroimon/Arduino-SerialCommand - not in the repo
 #include <SerialCommand.h>
+
+// https://github.com/adafruit/Adafruit_TLC5947
 #include <Adafruit_TLC5947.h>
 
 
